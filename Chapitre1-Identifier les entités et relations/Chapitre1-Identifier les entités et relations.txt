@@ -1,0 +1,42 @@
+
+1- Entités
+
+Ex:
+
+Utilisateur
+
+Article
+
+Commentaire
+
+2- Attributs
+
+خصائص ديال entité:
+
+id
+
+nom
+
+email
+
+date
+
+
+3- Relations
+
+الروابط بين entités:
+
+Utilisateur — rédige — Article
+
+Article — reçoit — Commentaire
+
+4- Cardinalités
+EX:
+1
+N
+0..N
+1..N
+
+Ex:
+
+Utilisateur (1) —— (N) Article
