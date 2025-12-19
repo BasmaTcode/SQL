@@ -1,0 +1,35 @@
+Création de la base de données nommée BlogDB.
+
+Activation et utilisation de cette base de données grâce à la commande USE BlogDB.
+
+Mise en place de la table Utilisateur, comprenant :
+
+une clé primaire auto-incrémentée (id),
+
+un champ nom obligatoire,
+
+un champ email unique,
+
+un champ mot_de_passe obligatoire.
+
+Création de la table Article, qui regroupe :
+
+les informations relatives aux articles (titre, contenu et date de publication),
+
+une clé étrangère (id_utilisateur) permettant d’associer chaque article à son auteur, établissant ainsi une relation un utilisateur peut publier plusieurs articles.
+
+Création de la table Commentaire, destinée à stocker :
+
+le contenu et les informations des commentaires,
+
+une clé étrangère (id_article) reliant chaque commentaire à l’article correspondant, définissant une relation un article peut recevoir plusieurs commentaires.
+
+Mise en œuvre des clés étrangères afin de garantir l’intégrité référentielle entre les différentes tables.
+
+Vérification de la bonne création des tables à l’aide de la commande SHOW TABLES.
+
+Insertion d’un utilisateur de test pour confirmer le bon fonctionnement de la base de données.
+
+Ajout d’un index sur le champ email afin d’optimiser les performances des recherches.
+
+Ajout d’un commentaire descriptif sur la table Utilisateur dans le but de mieux documenter la base de données.
