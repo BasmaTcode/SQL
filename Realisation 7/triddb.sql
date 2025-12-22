@@ -43,6 +43,13 @@ VALUES
 ('Article technique', 'Article consacré à la programmation', 2),
 ('Mon expérience avec SQL', 'J’ai appris SQL étape par étape', 3);
 
+INSERT INTO Commentaire (contenu, auteur, id_article)
+VALUES
+('Article très intéressant', 'Wissal', 1),
+('Explication claire et simple', 'Sara', 1),
+('Merci pour ce partage', 'Basma', 2);
+
+
 
 
 
