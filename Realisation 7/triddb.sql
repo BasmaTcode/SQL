@@ -37,10 +37,12 @@ VALUES
 ('Sara', 'sara12@gmail.com', 'abcd'),
 ('wissal', 'wissal22trid@mail.com', 'wiss');
 
-INSERT INTO Utilisateur (nom, email, mot_de_passe)
+INSERT INTO Article (titre, contenu, id_utilisateur)
 VALUES
-('Basma', 'basma@mail.com', '123456'),
-('Sara', 'sara@mail.com', 'abcdef'),
-('Yassine', 'yassine@mail.com', 'password');
+('Premier article', 'Ceci est le contenu du premier article', 1),
+('Article technique', 'Article consacré à la programmation', 2),
+('Mon expérience avec SQL', 'J’ai appris SQL étape par étape', 3);
+
+
 
 
