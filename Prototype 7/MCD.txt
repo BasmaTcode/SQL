@@ -1,0 +1,21 @@
+UTILISATEUR :
+  id_user 
+  nom
+  email
+  mot_de_passe
+
+
+ARTICLE :
+  id_article 
+  titre
+  contenu
+  date_publication
+  id_user 
+
+
+COMMENTAIRE :
+  id_commentaire 
+  contenu
+  date_commentaire
+  id_article 
+
